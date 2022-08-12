@@ -13,6 +13,7 @@ I'll do a list:
 #  blocks with ''': good for string block with multiple "" quotes?;
 # don't need to escape each time
 # won't allow \t\n type escapes
+# won't process #{} interpolation
 fatter_cat = '''
 And then he said "fishies!"
 	#{fatter_cat} cat\'s fishies
