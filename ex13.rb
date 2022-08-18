@@ -11,3 +11,4 @@ third = $stdin.gets.chomp
  puts "Your third variable is: '#{third}'"
 
 # can pass empty string, as long as it's in " "
+# args come as strings
