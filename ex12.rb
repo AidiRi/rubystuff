@@ -32,7 +32,7 @@ else
 	
 	response = gets.chomp
 
-	puts "*#{response.empty? ? '...' : response}*...Um. Right!"
+	puts "*#{response.empty? ? '...' : response}*  ...Um. Right!"
 	print finalResponse
 
 end
