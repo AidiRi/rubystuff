@@ -4,8 +4,8 @@ filename = ARGV.first
 # print "Filename:"
 # filename = $stdin.gets.chomp
 
-# Creates a new File object, returns the contents of the file at 
-# path passed through 'filename'.
+# Creates a new File object, returns the new File object with
+# path passed through 'filename'. Synonymous with File.new.
 txt = open(filename)
 
 # Puts string with filename and adds new line.
@@ -21,7 +21,7 @@ print "Type the filename again: "
 file_again = $stdin.gets.chomp
 
 # Uses string from file_again as the path to the file to open, 
-# creates new File object returning contents of file.
+# creates and returns a new File object.
 txt_again = open(file_again)
 
 # Returns a string reading from opened File object txt_again,
